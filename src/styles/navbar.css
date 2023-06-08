@@ -1,0 +1,39 @@
+nav{
+    background-color: aquamarine;
+    width: 90vw;
+    height: 70px;
+    margin: auto;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo i{
+    color: green;
+    font-size: 40px;
+}
+
+#hamberger i{
+    color: blue;
+    font-size: 40px;
+}
+
+#dropdown{
+    background-color: aquamarine;
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+
+#dropdown ul{
+    list-style: none;
+}
+
+#dropdown ul li a{
+    color: black;
+    text-decoration: none;              
+    display: block;
+    margin: 5px;
+}
